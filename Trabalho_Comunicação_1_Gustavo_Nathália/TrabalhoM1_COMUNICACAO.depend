@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1616799908 source:c:\users\natha\onedrive\Área de trabalho\trabalhom1_comunicacao\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Hamming.h"
+
+1616805700 c:\users\natha\onedrive\Área de trabalho\trabalhom1_comunicacao\hamming.h
+	<windows.h>
+	<stdlib.h>
+	<iostream>
+

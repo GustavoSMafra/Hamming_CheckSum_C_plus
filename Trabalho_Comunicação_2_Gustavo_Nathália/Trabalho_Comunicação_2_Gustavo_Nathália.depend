@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1616775859 source:c:\users\gustavo\desktop\trabalho_comunicação_2_gustavo_nathália\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+
