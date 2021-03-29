@@ -1,7 +1,7 @@
 # M1_Comunicacao_Gustavo_Nathalia
 Trabalho referente a matéria de Comunicação Digital, referente a primeira média (M1)
 
-Link para apresentação: https://www.youtube.com/watch?v=FV26ZAHyOn4&ab_channel=GustavoMafra
+Link para apresentação: https://www.youtube.com/watch?v=7qfD9vHDUiY&ab_channel=GustavoMafra
 
 O método de inserção de dados deve ser:
 
