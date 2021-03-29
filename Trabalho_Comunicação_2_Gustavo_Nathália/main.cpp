@@ -17,7 +17,7 @@ void input_word(int word1 [tam], int word2 [tam], int word3[tam]){
 
     string word;
 
-    cout <<"\n\n\t Inserção de palavras para teste, elas devem possuir 12 bits (1 ou 0)";
+    cout <<"\n\n\t Inserção de palavras para teste, elas devem possuir 12 bits (Ex.: 111111111111)";
     cout << "\n\n\nInsira o valor da 1 palavra: ";
     cin >> word;
     for(int i = 0; i < 12; i++){
