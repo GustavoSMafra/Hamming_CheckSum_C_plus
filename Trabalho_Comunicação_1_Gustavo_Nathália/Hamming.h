@@ -106,8 +106,7 @@ void hamming9_5(int n2,int n4,int n5,int n6,int n8){
             }
             else{
                 cout<<"\tErro\n"<<endl;
-                posicao = (k0*1) + (k1*2) + (k2*4) + (k3*6); //Conversão de binário para decimal = multiplicar o numero pela sua base
-                                                             // k0 = k¹, k1 = k², k3 = k^4, k7 = k^6
+                posicao = (k0*1) + (k1*2) + (k2*4) + (k3*8); //Conversão de binário para decimal = multiplicar o numero pela sua base
                 cout<<"Posição:"<<(posicao)<<"\n\n";         //EXIBICAO DA POSICAO DO ERRO PRO USUARIO
                 cout<<"Correção do erro...\n";
 
@@ -191,7 +190,7 @@ void hamming9_5(int n2,int n4,int n5,int n6,int n8){
                     cout<<"\nSem erros"<<endl;
                 }
                 else{
-                    cout<<"\n\nPossui 2 erros, logo não é possivel detectar\n"<<endl;
+                    cout<<"\n\nErro detectado, porém possui 2 erros logo não é possivel detectar a posição de ambos e corrigí-los\n"<<endl;
                 }
                 i=0;
                 break;
@@ -215,7 +214,7 @@ void entrada_n_9_5(int n2,int n4,int n5,int n6,int n8){
     int i = 1;
     system("cls");
     while(i == 1){
-        cout<<"Entre com a palavra de dados de 5 bits:"<<endl;
+        cout<<"Entre com a palavra de dados de 5 bits(Ex: 1 1 1 1 1):"<<endl;
         cin>>n2>>n4>>n5>>n6>>n8;
 
         if((n2 <= 1)&&(n4 <= 1)&&(n5 <= 1)&&(n6 <= 1)&&(n8 <= 1)){
@@ -323,8 +322,8 @@ void hamming12_8(int n2,int n4,int n5,int n6,int n8,int n9,int n10,int n11){
                 }
                 else{
                     cout<<"\tErro\n"<<endl;
-                    posicao = (k0*1) + (k1*2) + (k2*4) + (k3*6); //Conversão de binário para decimal = multiplicar o numero pela sua base
-                                                                // k0 = k¹, k1 = k², k3 = k^4, k7 = k^6
+                    posicao = (k0*1) + (k1*2) + (k2*4) + (k3*8); //Conversão de binário para decimal = multiplicar o numero pela sua base
+
                     cout<<"Posição:"<<(posicao)<<"\n\n";
                     cout<<"Correção do erro...\n";
 
@@ -408,7 +407,7 @@ void hamming12_8(int n2,int n4,int n5,int n6,int n8,int n9,int n10,int n11){
                     cout<<"\nSem erros"<<endl;
                 }
                 else{
-                    cout<<"\n\nPossui 2 erros, logo não é possivel detectar\n"<<endl;
+                    cout<<"\n\nErro detectado, porém possui 2 erros logo não é possivel detectar a posição de ambos e corrigí-los\n"<<endl;
                 }
                 i=0;
                 break;
@@ -427,7 +426,7 @@ void entrada_n_12_8(int n2,int n4,int n5,int n6,int n8,int n9,int n10,int n11){
     int i = 1;
     system("cls");
     while(i = 1){
-        cout<<"Entre com a palavra de dados de 8 bits"<<endl;
+        cout<<"Entre com a palavra de dados de 8 bits(Ex: 1 1 1 1 1 1 1 1):"<<endl;
         cin>>n2>>n4>>n5>>n6>>n8>>n9>>n10>>n11;
 
         if((n2 <= 1)&&(n4 <= 1)&&(n5 <= 1)&&(n6 <= 1)&&(n8 <= 1)&&(n9 <= 1)&&(n10 <= 1)&&(n11 <= 1)){
